@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+/* 
+   em HTML é   id  = em CSS é #
+   em HTML é Class = em CSS é .
+
+exemplo:
+pode usar h1#principal para ficar mas facil identificar ou usar so #principal que é o nome do id
+*/
+h1#principal {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+c
+
+h2.avançado {
+  color: chocolate;
+}
+ .destaque{
+  background-color: blue;
+ }
+p {
+  text-indent: 25px;
+}
+
+
+h1 {
+  color: rgb(251, 255, 0);
+}
+h2 {
+  color: rgb(160, 118, 4);
+}
+
+a:visited{
+            /* ao ser clicado uma vez ira mudar a cor do item*/
+            color: rgb(119, 0, 0);}
+        
+        a:active{
+            /* quando o item estiver ativo ira ficar em outra cor */
+            color: chartreuse;}
+        a:hover{
+            /* ao passar o mouse sobre o item ira mudar para cor red*/
+            color: red;}

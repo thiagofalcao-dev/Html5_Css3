@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>este video esta hospedado no seu proprio servidor</p>
+
+    <!-- Esta colocando uma capa no video e ajustando o tamanho para 500 e com loop para repetiçao de video quando acabar-->
+     <video width="500" poster="Img/capa_video.avif" controls autoplay loop>
+        
+        <source src="Video/Aprenda a personalizar o VSCode - Tema, configurações, extensões e dicas.mp4" type="video/mp4">
+        <source src="#" type="video/webm">
+        <source src="#" type="video/ogg">
+    <!--ira checar em ordem se o navegador reproduz o video, caso nao seja compativel ele mudara para o video abaixo e caso nao funcione nenhum ira exibir a mensagem abaixo-->
+        <p>seu navegador nao tem compatibilidade com formatos de reproduçao de videos.</p>
+     </video>
+
+<!-------------------------------------------------->
+
+     <!--Incorporação de vídeos externos "Youtube"-->
+     <h1>Inserindo videos externos do youtube</h1>
+
+     <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=5B5_73XUkhScAmT6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>

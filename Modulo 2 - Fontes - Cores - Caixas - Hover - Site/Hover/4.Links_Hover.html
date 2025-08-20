@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    https://erikasarti.com/html/dingbats-simbolos-desenhos/
+    <style>
+      /*
+         #  = id
+         .  = class 
+         :  = pseudo-class
+         :: = pseudo-element
+         >  = children
+      */
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a:visited {
+        /* ao ser clicado uma vez ira mudar a cor do item*/
+        color: rgb(119, 0, 0);
+      }
+      a:active {
+        /* quando o item estiver ativo ira ficar em outra cor */
+        color: rgb(25, 0, 255);
+      }
+      a:hover {
+        /* ao passar o mouse sobre o item ira mudar para cor red*/
+        color: red;
+      }
+      a::after {
+        /* depois de todos os links ira adicionar [link] */
+        content: " [☽]";
+        text-decoration: none;
+        font-weight: normal;
+        color: rgb(171, 174, 177);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando Links</h1>
+    <ul>
+      <li><a href="https://www.google.com/">Google</a></li>
+
+      <li>
+        <a href="https://www.youtube.com" target="_blank" rel="external"
+          >Youtube</a
+        >
+      </li>
+
+      <li>
+        <a href="https://www.facebook.com/" target="_blank" rel="external"
+          >Facebook</a
+        >
+      </li>
+      <li><a href="https://www.gmail.com/">gmail</a></li>
+    </ul>
+  </body>
+</html>

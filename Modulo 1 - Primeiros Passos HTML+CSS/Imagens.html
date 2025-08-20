@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Colocando icone na Aba no site-->
+    <link rel="shortcut icon" href="Img/fav.ico" type="image/x-icon">
+
+    <title>Imagens</title>
+</head>
+<body>
+
+    <h1>Imagens na pasta</h1><!-- usando imagens armazenadas na pasta-->
+    
+    <p>Abaixo voce vai ver imagens que esta na mesma pasta</p>
+      <img src="Img/HTML5_200.png" alt="Logo_HTML5">
+    <p>Abaixo voce vai ver imagens que esta na mesma pasta</p>
+      <img src="Img/CSS3_200.png" alt="Logo_CSS3">
+    
+<!-------------------------------------------------->
+
+    <h1>Imagens externas</h1><!-- usando imagens de endereços de sites-->
+
+    <p>Abaixo esta uma imagem usada por link da internet</p>
+      <img src="https://www.globalcloudteam.com/wp-content/uploads/2023/08/javascript.webp" alt="Logo_Javascript"> <!-- URL -->
+
+<!-------------------------------------------------->
+
+
+    <h1>Imagem dimanica</h1>
+
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture> 
+      <!-- adapta a imgem ao diminuiu ou aumentar a pagina -->
+      <source media="(max-width: 750px)" srcset="Img/P.png" type="image/png">
+      <source media="(max-width: 1023px)" srcset="Img/M.png" type="image/png">
+      <img src="Img/G.png" alt="imagem flexivel">
+    </picture>
+
+      
+</body>
+</html> 

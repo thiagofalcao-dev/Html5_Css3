@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(235, 218, 252);
+      }
+
+      /* 
+      ira mecher na tag que esta dentro de div
+        exemplo: esta ocultando o texto 
+        */
+      div > p {
+        display: none;
+      }
+      /* 
+      quando passar o mouse sobe a tag p ira aparecer 
+      o texto que esta escondido com cor e fundo diferentes
+      */
+      div:hover > p {
+        display: block;
+        color: white;
+        background-color: black;
+      }
+      div:hover {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+      Passe o Mouse aqui
+      <p>Texto ESCONDIDO...</p>
+    </div>
+  </body>
+</html>

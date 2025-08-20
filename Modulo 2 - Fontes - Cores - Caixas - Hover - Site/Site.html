@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Tags</title>
+  </head>
+  <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+    header{
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 0px 3px;
+        
+    }
+    header > h1{
+        box-shadow: 2px 2px 3px rgba(65, 64, 64, 0.541);
+    }
+    nav{
+        background-color: rgb(94, 93, 93);
+        padding: 3px;
+        box-shadow: 2px 2px 2px rgb(65, 64, 64);
+       
+    }
+    nav > a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+        color: rgb(0, 238, 255);
+    }
+    main{
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 4px 20px;
+    }
+    article{
+        background-color: rgb(221, 227, 233);
+        padding: 5px;
+        height: 180px;
+        box-shadow: 2px 2px 2px rgb(182, 182, 182);
+        border-radius: 3px;
+    }
+    article > aside{
+        background-color: rgb(183, 190, 196);
+        
+    }
+    footer{
+        background-color: black;
+        color: rgba(255, 255, 255, 0.774);
+        text-align: center;
+        padding: 5px;
+        margin: 0px;
+    }
+    footer > p{
+        margin: 0;
+    }
+     #bola{
+            background-color: rgb(255, 255, 255);
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(74, 87, 69, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+
+  </style>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes 
+                Politico Tecnologia
+            </p>
+        </section>
+      <section id="noticias">
+        <article>
+          <h2>Noticia sobre o Brasil</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
+            architecto eveniet laudantium deleniti ab commodi iusto sit
+            quibusdam repudiandae ut? Accusamus accusantium reiciendis nam
+            consectetur explicabo excepturi in, fuga fugit!
+          </p>    
+          <aside>Artigo Escrito por Thiago Falcao</aside>
+        </article>
+      </section>
+    </main>
+    
+
+    <footer>
+      <p>Desenvolvido por Thiago Falcao</p>
+    </footer>
+    <div id="bola"></div>
+  </body>
+</html>
