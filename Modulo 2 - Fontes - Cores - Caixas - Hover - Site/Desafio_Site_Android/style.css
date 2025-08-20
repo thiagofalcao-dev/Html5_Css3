@@ -9,7 +9,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  
 }
 
 :root {
@@ -53,7 +52,7 @@ header p {
   margin: auto;
   padding-right: 10px;
   padding-left: 10px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.521);
   padding-bottom: 40px;
 }
 /*_________________________________________*/
@@ -72,9 +71,9 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover{
-    background-color: rgba(49, 173, 11, 0.521);
-    color: rgb(255, 253, 127);
+nav a:hover {
+  background-color: rgba(49, 173, 11, 0.521);
+  color: rgb(255, 253, 127);
 }
 /*_________________________________________*/
 
@@ -87,7 +86,7 @@ main {
   border-radius: 0px 0px 8px 8px;
   box-shadow: 0px 0px 100px rgba(7, 4, 0, 0.308);
 }
-main h1{
+main h1 {
   color: var(--cor5);
   font-family: "android";
   text-indent: 5px;
@@ -95,14 +94,17 @@ main h1{
   font-size: 1.8em;
 }
 
-main h2{
-    color: var(--cor5);
-    font-family: "android";
-    font-weight: normal;
-    font-size: 1.5em;
-    text-indent: 5px;
-    background-image: linear-gradient(to right, rgba(44, 253, 96, 0.37), transparent);
-    
+main h2 {
+  color: var(--cor5);
+  font-family: "android";
+  font-weight: normal;
+  font-size: 1.5em;
+  text-indent: 5px;
+  background-image: linear-gradient(
+    to right,
+    rgba(44, 253, 96, 0.37),
+    transparent
+  );
 }
 
 main p {
@@ -111,27 +113,26 @@ main p {
   text-indent: 20px;
   font-size: 1em;
   line-height: 1.5em;
- 
 }
 
-main strong{
-    color: #009b46;
-    font-weight: bold;
+main strong {
+  color: #009b46;
+  font-weight: bold;
 }
 main a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #009b46;
-    background-color: #98f8c33b;
+  text-decoration: none;
+  font-weight: bold;
+  color: #009b46;
+  background-color: #98f8c33b;
 }
-main a:hover{
-    color: #007a29;
-    text-decoration: underline;
+main a:hover {
+  color: #007a29;
+  text-decoration: underline;
 }
 /*_________________________________________*/
 
-a.externa::after{
-  content: '\00A0\1F517';
+a.externa::after {
+  content: "\00A0\1F517";
 }
 /*_________________________________________*/
 img {
@@ -144,16 +145,15 @@ img {
 }
 /*_________________________________________*/
 
-div.video{
+div.video {
   background-color: #063d1e;
   padding: 20px;
   padding-bottom: 56.7%;
   margin: 0 -20px 15px -20px;
   position: relative;
-  
 }
 
-div.video >iframe{
+div.video > iframe {
   position: absolute;
   top: 5%;
   left: 5%;
@@ -163,13 +163,13 @@ div.video >iframe{
 
 /*_________________________________________*/
 
-aside{
+aside {
   background-color: var(--cor1);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
 }
-aside > h3{
+aside > h3 {
   color: white;
   font-weight: bold;
   font-size: 1.3em;
@@ -181,7 +181,6 @@ aside > h3{
   border-radius: 5px 5px 0 0;
 }
 
-
 aside ul {
   /* 
   list-style-position: inside; > ira mudar a posicao do ul
@@ -189,15 +188,14 @@ aside ul {
   columns: 2; > ira dividir o ul em 2 colunas
   */
   list-style-position: inside;
-  list-style-type: '\2714\00A0\00A0'; 
+  list-style-type: "\2714\00A0\00A0";
   columns: 2;
 }
-abbr{
+abbr {
   text-decoration: none;
 }
 
 /*_________________________________________*/
-
 
 footer {
   margin-top: 20px;
@@ -212,7 +210,7 @@ footer a {
   color: #39ee8a;
   text-decoration: none;
 }
-footer a:hover{
+footer a:hover {
   text-decoration: underline;
 }
 /*_________________________________________*/
